@@ -1,12 +1,13 @@
-﻿namespace NUnitTestsPart2Lecture2
-{
-    /*
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
-    */
-}
+﻿using System;
+using NUnitTestsPart2Lecture2;
+
+
+// Threads
+//ParallelTasks.RunParallelTasks();
+
+
+// Run ThreadSafety    
+ThreadSafetyTest.RunThreadSafetyTest();
+
+
+
